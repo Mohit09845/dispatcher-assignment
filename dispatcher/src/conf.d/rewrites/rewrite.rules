@@ -34,4 +34,4 @@ RewriteRule ^/articles/([^/]+)$ /content/mysite/us/en/blogs/$1.html [R=301,L]
 RewriteMap lc int:tolower
 
 RewriteCond %{REQUEST_URI} [A-Z]
-RewriteRule ^(.*)$ ${lc:$1} [PT]
+RewriteRule ^(.*)$ ${lc:$1}
