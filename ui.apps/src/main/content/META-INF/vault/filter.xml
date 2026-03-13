@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/dispatcher-assignment/clientlibs"/>
+    <filter root="/apps/dispatcher-assignment/components"/>
+    <filter root="/apps/dispatcher-assignment/i18n"/>
+</workspaceFilter>

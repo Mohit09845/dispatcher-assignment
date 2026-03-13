@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/dispatcher-assignment" mode="merge"/>
+    <filter root="/content/dispatcher-assignment" mode="merge"/>
+    <filter root="/content/dam/dispatcher-assignment" mode="merge">
+        <exclude pattern="/content/dam/dispatcher-assignment(/.*)?"/>
+        <include pattern="/content/dam/dispatcher-assignment/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/dispatcher-assignment/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/dispatcher-assignment" mode="merge"/>
+</workspaceFilter>
